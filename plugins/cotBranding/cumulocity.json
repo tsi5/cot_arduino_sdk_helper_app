@@ -1,0 +1,12 @@
+{
+  "name": "Branding CoT",
+  "description": "CoT Branding Plugin",
+  "ngModules": [
+    "custom.cotbranding"
+  ],
+  "less": ["main.less"],
+  "copy": ["img"],
+  "js": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,56 @@
+
+<header role="banner"> <h1>SmartREST Template Collection Manager</h1> </header>
+
+<!-- div class="wrap" -->
+<div class="page">
+    <main role="main">
+        <section class="mark">
+            <article id="instructions">
+
+                <div style="margin-top: 10px; margin-bottom: 10px">
+                    <h4>which Templates are installed ?</h4>
+                    <button class="btn btn-primary" ng-click="listTemplates()">list Templates</button>
+                    (Lists the ID and the Name)<br/>
+
+                    <div id="templatesList"><ul><li>...</li></ul></div>
+                </div>
+
+                <div style="margin-top: 10px; margin-bottom: 10px">
+                    <h4>Show a template (by ID)</h4>
+                    <input id="templateID" name="templateID" type="number" ng-model="templateID" />
+
+                    <button class="btn btn-primary" ng-click="getTemplate()">get Template Content</button>
+                    <br/>
+
+                    <textarea id="templateContent" readonly cols="70" style="margin-top: 5px;"
+                              ng-model="templateContent">...</textarea>
+                </div>
+
+                <div style="margin-top: 10px; margin-bottom: 10px">
+                    <h4>Delete a template (by ID)</h4>
+                    <!-- TODO: ist type="number" necessary ??? -->
+                    <input id="templateId2Delete" name="templateId2Delete" type="number" ng-model="templateId2Delete" />
+
+                    <button class="btn btn-primary" ng-click="deleteTemplate()">delete Template</button>
+                    <br/>
+                </div>
+
+                <div style="margin-top: 10px; margin-bottom: 10px">
+                    <h4>Upload new template (by name)</h4>
+                    <input id="newTemplateName" name="newTemplateName" ng-model="tmpltName" />
+
+                    <button class="btn btn-primary" ng-click="postNewTemplate()">upload Template</button>
+                    <br/>
+
+                    <textarea id="newTemplateContent" name="newTemplateContent" cols="70" ng-model="tmpltData"
+                              style="margin-top: 5px;">...</textarea>
+                </div>
+
+            </article>
+        </section>
+    </main>
+</div>
+
+<footer role="contentinfo">
+    <small>Deutsche Telekom <time datetime="2018">2018</time></small>
+</footer>

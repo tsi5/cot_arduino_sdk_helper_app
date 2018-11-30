@@ -1,0 +1,87 @@
+
+// Colors
+
+// (CTI-1420, 2017-05-18, eutstepha): Telekom Magenta as primary color.
+@brand-primary:         #E20074;
+
+@brand-complementary:   #A4C8CD;
+
+@brand-success:         #1fa22e;
+
+@brand-info:            #5bc0de;
+
+@brand-warning:         #FABC0B;
+
+@brand-danger:          #d9534f;
+
+
+
+@danger:                #D90000;
+
+@warning:               #FABC0B;
+
+@dark-warning:          #FF8000;
+
+@success:               #1fa22e;
+
+@brand-primary-light:   lighten(@brand-primary, 50%);
+
+
+
+// (CTI-1378, 2017-04-27, eustepha): Activate this line, avoid build errors.
+@darker:                #333;
+//
+@darker-header:         #0C3B60;
+//
+// (CTI-1378, 2017-05-02, eustepha): Activate this line, avoid build errors.
+@darker-header-overlay: #006F97;
+
+@gray-base:             #000;
+
+@gray-text:             #444;
+
+@gray-darker:           lighten(@darker, 15%);
+
+@gray-dark:             #757575;
+
+@gray:                  #a3a3a3;
+
+@gray-light:            #E5E7E7;
+
+@gray-lighter:          #f3f3f3;
+
+
+// (CTI-1378, 2017-04-27, eustepha): Activate this line, avoid build errors,
+@body-background-color:   #fff;
+//@body-background-color: #f4f4f4;
+
+
+//** Global color for active items (e.g., navs or dropdowns).
+@component-active-color:    #fff;
+
+//** Global background color for active items (e.g., navs or dropdowns).
+@component-active-bg:       darken(@brand-primary, 30%); //@brand-primary;
+
+
+
+@input-placeholder-color:   #999;
+
+
+@navColor:             darken(@brand-primary, 30%); // @darker;
+@navigator-title-color: lighten(@brand-primary, 70%);
+@navigator-text-color: lighten(@brand-primary, 70%); //@gray-lighter;
+@navigator-separator-color: lighten(@brand-primary, 70%); //@gray-lighter; // fade(white, 5%);
+
+// (CTI-1420, 2017-05-18, eutstepha): Header color with primary Magenta
+@headerColor:           @brand-primary;
+//@headerColor:           darken(@brand-primary, 10%);
+
+@navColorHeader:       darken(@brand-primary, 30%); // @darker;
+@spinner-color:        lighten(@brand-primary, 70%);  // 30%
+
+// (CTI-1378, 2017-05-02, eustepha):  Set @navigator-font-family, avoid build errors.
+@navigator-font-family: @font-family-fontawesome;
+
+@navigator-font-size: 13px;
+@navigator-active-color: white;//@brand-primary-light;
+@navigator-active-bg: darken(@brand-primary, 30%); //@brand-primary;

@@ -1,0 +1,32 @@
+@import "../variables/index.less";
+
+// wrapper around every page of our plugin
+// use to apply styles, that should not change cumulocity stylings
+.page {
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .mt-1 {
+    margin-top: @spacer * 0.25;
+  }
+
+  .mt-2 {
+    margin-top: @spacer * 0.5;
+  }
+
+  .mt-3 {
+    margin-top: @spacer;
+  }
+}
