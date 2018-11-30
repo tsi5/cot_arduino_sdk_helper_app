@@ -1,0 +1,16 @@
+*************************************************
+*
+* Release Notes
+*
+* cot_arduino_sdk_helper_app
+*
+* Cumulocity c8y Web-App
+*
+*************************************************
+Date:         24.05.2018
+Version:      0.0.1
+Changes:      CAL-58: CoT Arduino SDK Helper WebApp implementation.
+New Features: Possibility of creating, querying, deleting the template collections on the current tenant.
+Includes:     WebApp source code, tenant url:
+		https://arduino_iot_agent.ram.m2m.telekom.com/apps/cotarduionosdkhelper/index.html#/templatemanager
+

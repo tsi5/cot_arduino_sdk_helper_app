@@ -1,0 +1,13 @@
+{
+  "availability": "PRIVATE",
+  "contextPath": "cotarduionosdkhelper",
+  "key": "cotarduionosdkhelper",
+  "name": "CoT SmartREST Management",
+  "resourcesUrl": "/",
+  "type": "HOSTED",
+  "imports": [
+    "core/dashboard",
+    "cotarduionosdkhelper/cotBranding",
+    "cotarduionosdkhelper/helperplugin"
+  ]
+}
